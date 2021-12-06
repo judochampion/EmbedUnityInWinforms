@@ -1,6 +1,6 @@
 ﻿namespace Container
 {
-    partial class LVD_Steelplying_Embed_Unity_Exe_Winforms_Control
+    partial class Embed_Unity_Exe_Winforms_Control
     {
         /// <summary>
         /// Required designer variable.
@@ -78,7 +78,7 @@
             this.unityHWNDLabel.TabIndex = 1;
             this.unityHWNDLabel.Text = "label2";
             // 
-            // LVD_Steelplying_Embed_Unity_Exe_Winforms_Control
+            // Embed_Unity_Exe_Winforms_Control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -87,7 +87,7 @@
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.Name = "LVD_Steelplying_Embed_Unity_Exe_Winforms_Control";
+            this.Name = "Embed_Unity_Exe_Winforms_Control";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Form1";
             this.Activated += new System.EventHandler(this.Form1_Activated);
