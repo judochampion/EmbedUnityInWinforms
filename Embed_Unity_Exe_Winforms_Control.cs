@@ -14,7 +14,7 @@ using LVD.CSSystemLib;
 
 namespace Container
 {
-    public partial class LVD_Steelplying_Embed_Unity_Exe_Winforms_Control : Form, IDisposable
+    public partial class Embed_Unity_Exe_Winforms_Control : Form, IDisposable
     {
         #region Fields
 
@@ -25,7 +25,7 @@ namespace Container
         private readonly IntPtr WA_ACTIVE = new IntPtr(1);
         private readonly IntPtr WA_INACTIVE = new IntPtr(0);
 
-        private const string UNITY_EXE_NAME = "LVD Steelplying";
+        private const string UNITY_EXE_NAME = "<FILL_IN_UNITY_EXE_HERE>";
         private const string EMBEDD_EXE_NAME = "Start_Up_WPF_App";
 
         #endregion Fields
@@ -47,7 +47,7 @@ namespace Container
 
         #region Constructors
 
-        public LVD_Steelplying_Embed_Unity_Exe_Winforms_Control()
+        public Embed_Unity_Exe_Winforms_Control()
         {
             InitializeComponent();
 
